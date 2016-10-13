@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="description_now_playing">In this Activity, users should be able to see the current song information, as well as buttons to skip, pause, play, shuffle order and other common music player actions.</string>
+    <string name="implementing_now_playing">For this Activity I could implement the MediaPlayer and AudioManager classes from the Android framework. According to the documentation, \"You can play audio or video from media files stored in your application\'s resources (raw resources), from standalone files in the filesystem, or from a data stream arriving over a network connection, all using MediaPlayer APIs.\"</string>
+    <string name="description_catalog">In this Activity, the user should be able to find music by exploring different artists and their albums. They could also find music by looking through several playlists.</string>
+    <string name="implementing_catalog">For this Activity, I could implement the Spotify APIs as explained in their developer\'s website (http://developer.spotify.com). The APIs include an Android SDK and the Catalog section can be populated with data from their Web APIs as well.</string>
+    <string name="description_podcasts">In this Activity, users should be able to find different Podcasts that they can stream directly from the application. It can include filters for different topics or popular shows.</string>
+    <string name="implementing_podcasts">For this Activity, I could fetch different Podcast sources using the MixCloud APIs (https://www.mixcloud.com/developers). Then I could stream the audio from the feed\'s URLs using the MediaPlayer class.</string>
+    <string name="description_settings">In this Activity, the user should be able to manage their preferences, such as equalizer, streaming quality, the \"About\" information and links for Support and FAQs.</string>
+    <string name="implementing_settings">For this Activity, I could implement the Preference class from the Android Framework and use CheckBoxPreference for creating a list item that shows a checkbox, and a ListPreference to create an item that opens a dialog with a list of choices. I would also need to implement the PreferenceActivity abstract class, which  is the base class for an activity to show a hierarchy of preferences to the user. The FAQs and Support Views could call implicit Intents that open an external webpage.</string>
+    <string name="home">Home</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="catalog">Catalog</string>
+    <string name="podcasts">Podcasts</string>
+    <string name="settings">Settings</string>
+</resources>
